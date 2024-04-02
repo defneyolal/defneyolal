@@ -12,7 +12,7 @@
 body{
     width: 80%;
     margin: 0 auto;
-    background-color: cadetblue;
+    background-color: lightsteelblue;
     padding: 20px;
     font-family: "Tapestry", serif;
 }
@@ -35,7 +35,7 @@ h1{
     text-align: left;
 }
 h2{
-    text-align: left;
+    text-align: right;
 }
 #maliclal{
     background-color: darkslategray;
@@ -50,4 +50,42 @@ h2{
 }
 .menu {
     display: flex;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.flex-item{
+    flex: 0 1 auto;
+    align-self: center;,
+    order: 2;
+}
+.header-container {
+    color: darkslategrey;
+    background-color: #dda0dd;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+}
+.photo-grid{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px; 
+    flex-wrap: wrap;
+}
+.photo-grid-item {
+    border: 10px solid #dda0dd;
+    width: 300px;
+    height: 300px;
 }
