@@ -1,23 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
-
-
-
-
-
 body{
-    width: 80%;
     margin: 0 auto;
     background-color: lightsteelblue;
     padding: 20px;
-    font-family: "Tapestry", serif;
+    font-size: 50px;
+    font-family: "Reddit Mono", monospace;
 }
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: bisque;
+    padding: 10px;
+}
+
 table{
-    background-color: darkslategray;
+    background-color: beige;
     color: #dda0dd;
     padding: 10px;
 }
@@ -27,7 +32,7 @@ table{
     padding: 10px;
 }
 .text{
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 700;
     color: darkcyan;
 }
@@ -38,18 +43,21 @@ h2{
     text-align: right;
 }
 #maliclal{
-    background-color: darkslategray;
+    background-color: bisque;
+    
 }
 .links {
-    border: 1px solid #dda0dd; /* For debuggihng */
+  
     display: flex;
     justify-content: flex-end;
+    gap: 10px;
 }
 .login {
     margin-bottom: 20px;
 }
 .menu {
     display: flex;
+    justify-content: space-between;
 }
 .flex-container{
     display: flex;
@@ -60,11 +68,11 @@ h2{
 }
 .flex-item{
     flex: 0 1 auto;
-    align-self: center;,
+    align-self: center;
     order: 2;
 }
 .header-container {
-    color: darkslategrey;
+    color: #dda0dd;
     background-color: #dda0dd;
     display: flex;
     justify-content: center;
@@ -88,4 +96,33 @@ h2{
     border: 10px solid #dda0dd;
     width: 300px;
     height: 300px;
+    overflow: hidden;
 }
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+  .content{
+    display: flex;
+    justify-content: center;
+   padding-top: 3%;
+   gap: 2%;
+  }
+
+  .content img{
+    max-width: 100%;
+  }
