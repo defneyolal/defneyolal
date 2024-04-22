@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+
 body{
     margin: 0 auto;
-    background-color: lightsteelblue;
+    background-image: url( "images/pexels-pok-rie-33563-2894260.jpg");
+    background-position: center;
+background-attachment: fixed;
+background-size: cover;
     padding: 20px;
     font-size: 50px;
     font-family: "Reddit Mono", monospace;
@@ -15,17 +19,14 @@ body{
 a{
     text-decoration: none;
     padding: 10px;
+    color: #e14ae1;
 }
 a:hover{
-    background-color: bisque;
-    padding: 10px;
+    background-color:bisque;
+    
 }
 
-table{
-    background-color: beige;
-    color: #dda0dd;
-    padding: 10px;
-}
+
 .main-content{
     width: 70%;
     float: left;
@@ -34,30 +35,80 @@ table{
 .text{
     font-size: 50px;
     font-weight: 700;
-    color: darkcyan;
+    color: #dda0dd;
 }
-h1{
-    text-align: left;
-}
+
+
+
 h2{
     text-align: right;
 }
+
 #maliclal{
     background-color: bisque;
+ 
     
 }
+#maliclal1{
+    background-color: bisque;
+  font-size: 120%;
+  color: #e14ae1;
+  width: 20%;
+  
+
+}
+.menu1{
+
+    text-align: left;
+ 
+}
+
+    
 .links {
   
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
+    display:flex;
+    justify-content:left;
+    gap: 10px; 
+  
 }
+.links1{ 
+    display:flex;
+    justify-content:right;
+    gap: 10px; 
+    
+
+}
+.menu2{
+    justify-content: left;
+}
+#maliclal2{
+    background-color: bisque;
+  font-size: 120%;
+  color: #dda0dd;
+  width: 20%;
+
+
+}
+
 .login {
     margin-bottom: 20px;
+font-size: 70%; 
 }
+
+.signup{
+font-size: 70%;
+
+}
+
+.Projeler{
+
+    font-size: 70%;
+}
+
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+   
 }
 .flex-container{
     display: flex;
@@ -78,10 +129,10 @@ h2{
     justify-content: center;
 }
 .header {
-    width: 900px;
+    width: 620px;
     height: 300px;
     display: flex;
-    justify-self: space-between;
+    justify-self:center;
     align-items: center;
 }
 .photo-grid{
@@ -96,8 +147,10 @@ h2{
     border: 10px solid #dda0dd;
     width: 300px;
     height: 300px;
-    overflow: hidden;
+   overflow: hidden;
+   
 }
+
 .bungee-spice-regular {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
@@ -121,8 +174,59 @@ h2{
     justify-content: center;
    padding-top: 3%;
    gap: 2%;
+   font-size: 70%;
+   color:  rgb(89, 76, 102);
+
   }
 
   .content img{
     max-width: 100%;
   }
+  .h6
+{
+    background-color: bisque;
+    font-size: 180%;
+    color: #dda0dd;
+    width: 20%;
+  
+}
+.content1{
+    display: flex;
+    justify-content: center;
+   padding-top: 3%;
+   gap: 2%;
+   font-size: 70%;
+}
+.p2{
+ 
+   padding-top: 3%;
+   gap: 2%;
+   font-size: 70%;
+   color: rgb(89, 76, 102);
+}
+.h5{
+    
+        background-color: bisque;
+        font-size: 180%;
+        color: #dda0dd;
+        width: 25%;
+      
+    
+}
+.links3{
+    display:flex;
+    justify-content:right;
+    gap: 10px; 
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.img-container2{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 5%;
+ } 
+
